@@ -1,10 +1,13 @@
 patient = input("Nhập tên bệnh nhân:")
 sex = input("Nhập giới tính:")
-year_of_birth = int(input("Nhập năm sinh:"))
+year_of_birth = input("Nhập năm sinh:")
 phone_number = input("Nhập số điện thoại:")
 email = input("nhập Email:")
 symptom = input("Nhập triệu chứng ban đầu:")
-examination = float(input("Nhập chi phí khám:"))
+examination = input("Nhập chi phí khám:")
+
+year_of_birth = int(new_year)
+examination = float(new_examination)
 
 import random
 #tạo số ngẫu nhiên có 3 chữ số
@@ -15,8 +18,8 @@ print("-- THẺ BỆNH NHÂN --")
 print("MÃ BN:",code)
 print("Tên:",patient)
 print("Giới tính:",sex)
-print("Năm sinh:",year_of_birth)
+print("Năm sinh:",new_year)
 print("Điện thoại:",phone_number)
 print("Email:",email)
 print("Triệu chứng:",symptom)
-print("Chi phí:",examination)
+print("Chi phí:",new_examination)
